@@ -224,10 +224,10 @@ def user_stats(df: pd.DataFrame):
 
     # Print the count for each specific user
     sub_count = user_type_count['Subscriber']
-    cus_count = user_type_count['Customer']
+    customer_count = user_type_count['Customer']
 
     print("Subscriber count:", sub_count)
-    print("Customer count:", cus_count)
+    print("Customer count:", customer_count)
 
    
 
