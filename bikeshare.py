@@ -224,10 +224,10 @@ def user_stats(df: pd.DataFrame):
 
     # Print the count for each specific user
     sub_count = user_type_count['Subscriber']
-    cus_count = user_type_count['Customer']
+    customer_count = user_type_count['Customer']
 
     print("Subscriber count:", sub_count)
-    print("Customer count:", cus_count)
+    print("Customer count:", customer_count)
 
    
 
@@ -251,14 +251,14 @@ def user_stats(df: pd.DataFrame):
         earlist_birth_year = df['Birth Year'].min()
 
         # Most recent user birth year
-        recent_birth_year = df['Birth Year'].max()
+        most_recent_birth_year = df['Birth Year'].max()
 
         # Most common birth year
         birth_year_counts = df['Birth Year'].value_counts()
         most_common_birth_year = birth_year_counts.index[0]
 
         print("\nEarliest Birth Year:", int(earlist_birth_year))
-        print("Most Recent Birth Year:", int(recent_birth_year))
+        print("Most Recent Birth Year:", int(most_recent_birth_year))
         print("Most common Birth Year:", int(most_common_birth_year))
 
     except KeyError:
@@ -270,7 +270,7 @@ def user_stats(df: pd.DataFrame):
     print('-'*40)
 
 
-def raw_data(df: pd.DataFrame):
+def display_raw_data(df: pd.DataFrame):
     # Initialize a variable to keep track of the starting index
     start_index = 0
 
@@ -326,7 +326,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_data(df)
+        display_raw_data(df)
 
         
         while True:
