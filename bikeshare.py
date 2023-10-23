@@ -270,7 +270,7 @@ def user_stats(df: pd.DataFrame):
     print('-'*40)
 
 
-def raw_data(df: pd.DataFrame):
+def display_raw_data(df: pd.DataFrame):
     # Initialize a variable to keep track of the starting index
     start_index = 0
 
@@ -326,7 +326,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_data(df)
+        display_raw_data(df)
 
         
         while True:
