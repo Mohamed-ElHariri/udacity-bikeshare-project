@@ -7,7 +7,7 @@
 Bikeshare Database
 
 ### Description
-Describe what your project is about and what it does
+This is Bikeshare's database on 3 cities in the US, Washington, New York City and Chicago
 
 ### Files used
 Include the files used
