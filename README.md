@@ -15,5 +15,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit goes to Udacity and its staff for teaching me as well as Udacity GPT for helping me out with the python code.
 
