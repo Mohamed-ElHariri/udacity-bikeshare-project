@@ -10,9 +10,9 @@ Bikeshare Database
 This is Bikeshare's database on 3 cities in the US, Washington, New York City and Chicago
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
 Credit goes to Udacity and its staff for teaching me as well as Udacity GPT for helping me out with the python code.
